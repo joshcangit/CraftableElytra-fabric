@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "craftelytra:items/elytra_wing"
+  }
+}
+

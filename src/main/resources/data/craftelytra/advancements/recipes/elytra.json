@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftelytra:elytra"
+    ]
+  },
+  "criteria": {
+    "has_elytra_wing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftelytra:elytra_wing"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftelytra:elytra"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_elytra_wing",
+      "has_the_recipe"
+    ]
+  ]
+}

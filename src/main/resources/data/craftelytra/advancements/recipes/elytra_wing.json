@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "craftelytra:elytra_wing",
+      "craftelytra:elytra_wing2"
+    ]
+  },
+  "criteria": {
+    "has_popped_chorus_fruit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftelytra:phantom_membrane"
+          }
+        ]
+      }
+    },
+    "has_phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "craftelytra:phantom_membrane"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "craftelytra:elytra_wing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_popped_chorus_fruit",
+      "has_phantom_membrane",
+      "has_the_recipe"
+    ]
+  ]
+}

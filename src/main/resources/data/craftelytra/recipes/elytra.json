@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EE"
+  ],
+  "key": {
+    "E": [
+      {
+        "item": "craftelytra:elytra_wing"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:elytra"
+  }
+}
