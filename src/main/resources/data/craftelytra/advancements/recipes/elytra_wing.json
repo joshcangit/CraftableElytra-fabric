@@ -12,7 +12,7 @@
       "conditions": {
         "items": [
           {
-            "item": "craftelytra:phantom_membrane"
+            "item": "minecraft:popped_chorus_fruit"
           }
         ]
       }
@@ -22,7 +22,7 @@
       "conditions": {
         "items": [
           {
-            "item": "craftelytra:phantom_membrane"
+            "item": "minecraft:phantom_membrane"
           }
         ]
       }

@@ -8,20 +8,18 @@ import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class CraftableElytra implements ModInitializer
-{
+public class CraftableElytra implements ModInitializer {
 
     public static final String MODID = "craftelytra";
     public static final Logger LOGGER = LogManager.getLogger(MODID);
 
     public static CraftableElytra INSTANCE;
-    public static final Item ELYTRON = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item ELYTRA_WING = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
     @Override
-    public void onInitialize()
-    {
+    public void onInitialize() {
         INSTANCE = this;
-        Registry.register(Registry.ITEM, new Identifier(MODID, "elytron"), ELYTRON);
+        Registry.register(Registry.ITEM, new Identifier(MODID, "elytra_wing"), ELYTRA_WING);
         LOGGER.info("Craftable Elytra setup complete!");
     }
 }
